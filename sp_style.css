@@ -1,0 +1,97 @@
+
+@media screen and (max-width: 750px) {
+    :not(.eclinks-modal img) {
+        max-width: 100%;
+        height: auto;
+    }
+
+    body {
+        color: #444444;
+        font-size: 1.5rem;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-weight: 400;
+    }
+
+    #container {
+        overflow: hidden;
+    }
+
+    #sec_kv.rvhfm {
+        background-image: url(./images/main_bg_sp.jpg);
+        background-size: 100% auto;
+        height: 160vw;
+    }
+
+    #sec_kv.rvhfm .inner {
+        text-align: center;
+        height: 100%;
+        position: relative;
+    }
+
+    #sec_kv.rvhfm .site_logo {
+        margin-bottom: 3vw;
+    }
+
+    #sec_kv .site_logo {
+        text-align: center;
+        width: 20vw;
+        margin: auto;
+    }
+
+    #sec_kv .site_logo img {
+        width: 100%;
+    }
+
+    img {
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        vertical-align: top;
+    }
+
+    #sec_kv.rvhfm h1 {
+        width: 100%;
+        margin: 0;
+        padding: 0 5vw;
+    }
+    
+    #sec_kv.rvhfm h1 {
+        filter: drop-shadow(0 0 5px white);
+    }
+
+    #sec_kv.rvhfm .pdName {
+        padding: 0 10vw;
+        top: 33vw;
+    }
+    #sec_kv.rvhfm .pdName {
+        width: 100%;
+        filter: drop-shadow(0 0 5px white);
+        z-index: 2;
+        position: absolute;
+        left: 0;
+    }
+
+    #sec_kv.rvhfm .mainNew {
+        top: 41vw;
+        margin-left: -47vw;
+        width: 18vw;
+    }
+    #sec_kv.rvhfm .mainNew {
+        position: absolute;
+        top: 200px;
+        left: 50%;
+        margin-left: -365px;
+        z-index: 0;
+    }
+
+    #sec_kv.rvhfm .mainImg {
+        margin-top: 10vw;
+    }
+    #sec_kv.rvhfm .mainImg {
+        margin-top: 20px;
+        position: relative;
+        z-index: 1;
+    }
+
+
+   
+}
