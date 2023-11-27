@@ -118,6 +118,7 @@ h2 {
 }
 
 #sec_intro .inner {
+    font-size: 16px;
     width: 960px;
     margin: auto;
     padding: 105px 0 80px;
@@ -161,37 +162,15 @@ img {
     top: -40px;
 }
 
-#sec_intro .c_ttl + p {
-    text-align: center;
-    letter-spacing: .5px;
-    line-height: 2;
-    font-weight: 600;
-}
+
 p {
     font-feature-settings: "palt";
 }
 
-.sp-s {
-    display: none;
-}
-
-#sec_intro .list {
-    display: -webkit-flex;
-    display: flex;
-    -webkit-justify-content: space-between;
-    justify-content: space-between;
-    -webkit-align-items: center;
-    align-items: flex-start;
-    margin-top: 60px;
-}
 ul {
     list-style: none;
 }
 
-#sec_intro .list.active li {
-    transform: translateX(0);
-    opacity: 1;
-}
 
 #sec_intro .list li {
     width: 25%;
@@ -213,32 +192,23 @@ img {
     vertical-align: top;
 }
 
+#sec_intro .list li:nth-child(1) .wrap {
+    order: 1;
+}
+
 #sec_intro .list li:nth-child(1) .scene {
     color: #0F287B;
 }
 
 #sec_intro .list li .scene {
-    font-size: 32px;
-    line-height: 1.4;
-    height: 5.6rem;
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-}
-#sec_intro .list li .scene {
+    font-size: 21px;
     margin-bottom: 10px;
     font-weight: 600;
 }
-p {
-    font-feature-settings: "palt";
-}
+
 
 #sec_intro .list li .name {
     font-size: 18px;
-}
-p {
-    font-feature-settings: "palt";
 }
 
 #sec_intro .list li .fragrance {
@@ -248,9 +218,7 @@ p {
    
     margin-top: 5px;
 }
-p {
-    font-feature-settings: "palt";
-}
+
 
 sup {
     font-size: 0.6em;
@@ -266,6 +234,15 @@ element.style {
 }
 #sec_intro .list li {
     width: 25%;
+}
+
+#sec_intro .list li:nth-child(2) .new img {
+    width: 13vw;
+    height: auto;
+}
+
+#sec_intro .list li {
+    justify-content: center;
 }
 
 #sec_intro .list li {
@@ -291,15 +268,7 @@ img {
     color: #ae1c87;
 }
 
-#sec_intro .list li .scene {
-    font-size: 21px;
-    line-height: 1.4;
-    height: 80px;
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-}
+
 
 #sec_intro .list li:nth-child(3) .fig img {
     position: relative;
@@ -415,9 +384,7 @@ img {
 #sec_interest_1 .row dl dt {
     margin-bottom: 20px;
 }
-.sp-s {
-    display: none;
-}
+
 #sec_interest_1 .row dl dd {
     font-weight: 400;
     line-height: 2;
@@ -495,9 +462,7 @@ h2 {
     font-feature-settings: "palt";
 }
 
-.sp-s {
-    display: none;
-}
+
 h3 {
     font-feature-settings: "palt";
 }
@@ -547,9 +512,7 @@ h3 {
     letter-spacing: .5px;
     margin-bottom: 0.2em;
 }
-p {
-    font-feature-settings: "palt";
-}
+
 
 #sec_lineup .lineup_area .row .detal_area .fragrance {
     font-size: 25px;
@@ -683,9 +646,7 @@ h4 {
     position: relative;
 }
 
-.sp-s {
-    display: none;
-}
+
 
 #sec_trust .row .txt {
     flex: 1;
