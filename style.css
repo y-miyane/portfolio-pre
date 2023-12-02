@@ -167,6 +167,27 @@ p {
     font-feature-settings: "palt";
 }
 
+.sp-s {
+    display: none;
+}
+
+#sec_intro .c_ttl + p {
+    text-align: center;
+    letter-spacing: .5px;
+    line-height: 2;
+    font-weight: 600;
+}
+
+#sec_intro .list {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-align-items: center;
+    align-items: flex-start;
+    margin-top: 60px;
+}
+
 ul {
     list-style: none;
 }
@@ -186,11 +207,6 @@ ul {
     right: -2px;
 }
 
-img {
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    vertical-align: top;
-}
 
 #sec_intro .list li:nth-child(1) .wrap {
     order: 1;
@@ -202,6 +218,12 @@ img {
 
 #sec_intro .list li .scene {
     font-size: 21px;
+    line-height: 1.4;
+    height: 5.6rem;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 10px;
     font-weight: 600;
 }
@@ -236,10 +258,6 @@ element.style {
     width: 25%;
 }
 
-#sec_intro .list li:nth-child(2) .new img {
-    width: 13vw;
-    height: auto;
-}
 
 #sec_intro .list li {
     justify-content: center;
@@ -275,11 +293,7 @@ img {
     top: 6px;
     right: -10px;
 }
-img {
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    vertical-align: top;
-}
+
 
 #sec_intro .list li:nth-child(3) .scene {
     color: #59337C;
