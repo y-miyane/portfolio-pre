@@ -42,9 +42,21 @@
         width: 100%;
     }
 
-    img {
-        -webkit-backface-visibility: hidden;
-        backface-visibility: hidden;
-        vertical-align: top;
+    .pc-s {
+        display: none;
     }
+
+    .sp-s {
+        display: block;
+    }
+
+    #sec_kv.rvhfm .pdName {
+        width: 100%;
+        filter: drop-shadow(0 0 5px white);
+        z-index: 2;
+        position: absolute;
+        left: 0;
+    }
+
+    
 }
